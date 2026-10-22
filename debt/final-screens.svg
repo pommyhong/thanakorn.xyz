@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="-apple-system,'Segoe UI',Roboto,sans-serif">
+  <rect width="1600" height="900" fill="#ffffff"/>
+  <text x="80" y="80" font-size="30" font-weight="700" fill="#1a1a1a">The screens themselves</text>
+  <text x="80" y="118" font-size="21" fill="#8a8a8a">The four moments the effort moved to — the opening, and the endings. MOCK, rounded numbers (NDA).</text>
+
+  <!-- 1 · Peak / opening -->
+  <g>
+    <rect x="90" y="180" width="300" height="600" rx="34" fill="#f4f8ff" stroke="#cfe0ff" stroke-width="2"/>
+    <text x="120" y="240" font-size="16" fill="#8a8a8a">A special programme for you</text>
+    <text x="120" y="300" font-size="20" fill="#1a1a1a" font-weight="600">There is a way</text>
+    <text x="120" y="326" font-size="20" fill="#1a1a1a" font-weight="600">out of this.</text>
+    <rect x="120" y="360" width="240" height="120" rx="14" fill="#ffffff" stroke="#cfe0ff"/>
+    <text x="140" y="400" font-size="15" fill="#8a8a8a">You could save</text>
+    <text x="240" y="452" font-size="40" font-weight="700" fill="#2e9e6b" text-anchor="middle">฿1,400</text>
+    <rect x="120" y="700" width="240" height="52" rx="26" fill="#2f6bff"/><text x="240" y="733" font-size="16" fill="#fff" text-anchor="middle">See my options</text>
+    <text x="240" y="820" font-size="15" fill="#2f6bff" text-anchor="middle" font-weight="700">PEAK · opening</text>
+  </g>
+
+  <!-- 2 · End A confirmation -->
+  <g>
+    <rect x="450" y="180" width="300" height="600" rx="34" fill="#ffffff" stroke="#dcdcdc" stroke-width="2"/>
+    <circle cx="600" cy="320" r="46" fill="#eafaf1" stroke="#b6e8cd"/><path d="M578 320 l14 14 l26 -30" fill="none" stroke="#2e9e6b" stroke-width="5"/>
+    <text x="600" y="410" font-size="20" fill="#1a1a1a" font-weight="600" text-anchor="middle">You did the</text>
+    <text x="600" y="436" font-size="20" fill="#1a1a1a" font-weight="600" text-anchor="middle">right thing.</text>
+    <text x="600" y="480" font-size="15" fill="#8a8a8a" text-anchor="middle">Account closed · nothing more to pay</text>
+    <text x="600" y="820" font-size="15" fill="#2e9e6b" text-anchor="middle" font-weight="700">END A · confirmation</text>
+  </g>
+
+  <!-- 3 · miss deadline -->
+  <g>
+    <rect x="810" y="180" width="300" height="600" rx="34" fill="#ffffff" stroke="#dcdcdc" stroke-width="2"/>
+    <text x="840" y="240" font-size="16" fill="#8a8a8a">Before you confirm</text>
+    <text x="840" y="290" font-size="19" fill="#1a1a1a" font-weight="600">If you miss the date</text>
+    <rect x="840" y="320" width="240" height="150" rx="12" fill="#fff9f0" stroke="#f0dcc0"/>
+    <text x="860" y="356" font-size="15" fill="#8a8a8a">· the discount ends</text>
+    <text x="860" y="388" font-size="15" fill="#8a8a8a">· balance returns to ฿7,400</text>
+    <text x="860" y="420" font-size="15" fill="#8a8a8a">· you can ask again once</text>
+    <text x="840" y="700" font-size="14" fill="#8a8a8a">Pay in cash at 7-Eleven or transfer</text>
+    <text x="960" y="820" font-size="15" fill="#b6791f" text-anchor="middle" font-weight="700">say the scary part</text>
+  </g>
+
+  <!-- 4 · rewrite dashboard -->
+  <g>
+    <rect x="1170" y="180" width="300" height="600" rx="34" fill="#ffffff" stroke="#dcdcdc" stroke-width="2"/>
+    <text x="1200" y="240" font-size="16" fill="#8a8a8a">Your plan</text>
+    <rect x="1200" y="266" width="240" height="110" rx="12" fill="#f4f8ff" stroke="#cfe0ff"/>
+    <text x="1220" y="302" font-size="15" fill="#8a8a8a">Next payment</text>
+    <text x="1420" y="336" font-size="26" font-weight="700" fill="#1a1a1a" text-anchor="end">฿1,200</text>
+    <text x="1220" y="420" font-size="15" fill="#8a8a8a">2 of 5 paid</text>
+    <rect x="1200" y="436" width="240" height="12" rx="6" fill="#e6ecf5"/><rect x="1200" y="436" width="96" height="12" rx="6" fill="#2f6bff"/>
+    <text x="1320" y="820" font-size="15" fill="#2f6bff" text-anchor="middle" font-weight="700">rewrite · new balance</text>
+  </g>
+</svg>

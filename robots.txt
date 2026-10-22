@@ -1,0 +1,39 @@
+# This portfolio is intentionally kept out of search results by a
+#   <meta name="robots" content="noindex, nofollow, ...">
+# tag in index.html. That meta tag is the actual de-indexing lever.
+#
+# Crawling the pages is deliberately left ALLOWED below. A search engine has to fetch
+# the page to see the noindex and drop it — a "Disallow: /" here would block
+# that fetch, so the noindex would never be read and a bare URL could linger
+# in results. Do not add Disallow: / to "protect" the site; it does the
+# opposite. Allowing the crawl also keeps social link-preview (og:) working.
+# Pictures, the CV and the case screens are files, not pages: they cannot
+# carry the noindex tag, so a crawler that found one could index it. They are
+# closed here instead (23/10). og.png stays open: link previews need it.
+User-agent: *
+Disallow: /resume-files/
+Disallow: /ctl/
+Disallow: /debt/
+Disallow: /lock/
+Disallow: /pne/
+Disallow: /scg/
+Disallow: /device/
+Disallow: /stamps/
+Disallow: /pne-dashboard.webp
+Allow: /og.png
+
+# AI crawlers have no reason to read the noindex, so they are kept out of the
+# whole site.
+User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+User-agent: ClaudeBot
+User-agent: Claude-Web
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: CCBot
+User-agent: PerplexityBot
+User-agent: Bytespider
+User-agent: Applebot-Extended
+User-agent: meta-externalagent
+Disallow: /

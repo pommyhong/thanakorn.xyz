@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thanakorn Hongsa · Product Designer</title>
+    <meta name="description" content="Product designer working on complex lending & banking problems." />
+
+    <!-- Keep the portfolio out of search results. It carries a real name and
+         confidential (NDA) bank work, and is shared by link with recruiters —
+         it should not surface when a colleague or current employer googles the
+         name. noindex removes it from search; nofollow stops link equity flow.
+         This does NOT make the site private (anyone with the link still opens
+         it) and does NOT affect social link previews — Slack / LinkedIn / LINE
+         unfurlers are separate crawlers that still read the og: tags below. -->
+    <!-- 23/10 (Pommy: as hard to find as possible): also no picture search,
+         no cached copy and no text snippet, for every engine that reads this. -->
+    <meta name="robots" content="noindex, nofollow, noimageindex, noarchive, nosnippet" />
+
+    <!-- Favicon. The nav mark (28/09): a blue circle with a neon-green glow.
+         Replaced Pommy's cat (her call) so the tab matches the logo on the page.
+         32px drops the soft halo for a crisp ring — a blur turns grey that small.
+         Generated with PIL; the running dashboard keeps the cat. -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+    <!-- Share card (16/10 · Pommy's Figma, "og:image · mark field" in the
+         "Pom p test" file): the cream sheet with the mark, the name and the
+         role, over the home hero's mark field at rest. Exported at 2x, 2400x1200.
+         Name and role only, nothing that has to be kept in sync with a case.
+         Full URLs (20/10, domain bought): LinkedIn and Facebook ignore a
+         relative og:image, so a shared link showed no picture. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://thanakorn.xyz/" />
+    <meta property="og:title" content="Thanakorn Hongsa · Product Designer" />
+    <meta property="og:description" content="Product designer working on complex lending and banking problems." />
+    <meta property="og:image" content="https://thanakorn.xyz/og.png" />
+    <meta property="og:image:width" content="2400" />
+    <meta property="og:image:height" content="1200" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://thanakorn.xyz/og.png" />
+
+    <!-- Light is the default. The site does not follow the OS setting; the
+         toggle in the nav is the only thing that changes it. -->
+    <meta name="color-scheme" content="light" />
+
+    <!-- Fonts are self-hosted (Karla via @fontsource in main.jsx, Ovo in
+         theme.css) so the site works fully offline. No external font requests.
+         Ovo is preloaded: it is font-display: block, so the headlines wait
+         for it, and starting the download here keeps that wait short. -->
+    <link rel="preload" href="/fonts/ovo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" crossorigin src="/assets/index-BWOaweSp.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Dj5aUrhB.css">
+  </head>
+  <body>
+    <!-- Applies a saved dark choice before first paint. Without this, a
+         returning visitor who picked dark gets a light flash while React
+         mounts. Light needs no script: it is the default. -->
+    <script>
+      try {
+        if (localStorage.getItem("pommy.theme") === "dark")
+          document.documentElement.setAttribute("data-theme", "dark");
+      } catch (e) {}
+    </script>
+    <div id="root"></div>
+  </body>
+</html>
